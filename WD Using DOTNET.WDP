@@ -1,0 +1,89 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Using DOTNET
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : WD Using DOTNET
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : cEuro
+    internal_properties : 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
+    configuration_id : 5843269820208678797
+    type : 6
+    version :
+     autoincrement_version : false
+    language : 2
+    64bits : true
+ elements :
+  identifier : 0x4ac481e10010ecf2
+  elements :
+   -
+     name : cEuro
+     identifier : 0x40e3e420000066bf
+     internal_properties : CAAAAAgAAACU8vw4h/y0twDTmk+NBbsgutnx6ZkFvMSlEKLCd9g8PNxmkwM3k2xubdfBP8c5wTeBgQ==
+     physical_name : .\cEuro.wdc
+     type : 4
+   -
+     name : Global procedures of WD Using DOTNET
+     identifier : 0x40e3e3e500007ff9
+     internal_properties : CAAAAAgAAADkYszo14ykRxDj6j/dNrd8EkMZMfR7Y+lS6gXmAx1/uUPDchQn47w+PefRL/fpkQfxcQ==
+     physical_name : .\Global procedures of WD Using DOTNET.wdg
+     type : 7
+   -
+     name : WDConverter
+     identifier : 0x40e3e43e0001dbc1
+     internal_properties : CAAAAAgAAAABfXmtGkfvgE8exRbET4hxcxaiursB/sLQBY7QlqbsbJCcXzcAyqUpKBKMdDy0TLwEDA==
+     physical_name : .\WDConverter.wdw
+     type : 2
+   -
+     name : TEST_WDConverter
+     identifier : 0x4a099e960000438e
+     internal_properties : CAAAAAgAAABIxrBsWwAoMzzPtpt50wNQXgE9rQRnwdlOK6vzFAYW0n6MRcGLRxiaWcM9u3t1DYNN1Q==
+     physical_name : .\TEST_WDConverter.wxt
+     type : 17
+  other_elements :
+   -
+     physical_name : .\Description.gif
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - en-GB
+ wd_style_sheet : ".\\WD Using DOTNET.sty\r\n.\\WD8 Using .NET.sty"
+ code_elements :
+  internal_properties : CAAAAAgAAABseimUYz4VdXZ8hGsGFqoxLDfDcHkNZdBf0iQg2FQcqmw5VrO2lryVMt3efm9RagPlXJBReauIsX3ZdB8=
+  type_code : 0
+  p_codes :
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : cEuro
+     identifier : 0x4ac481e10015eddc
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

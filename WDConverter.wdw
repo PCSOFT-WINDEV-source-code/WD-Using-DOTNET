@@ -1,0 +1,248 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WDConverter
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WDConverter
+ identifier : 0x286e71330176a7fa
+ internal_properties : CAAAAAgAAAAWvPc3Ao31cGVAkH2DurInFmXtX0chVTUwvx9Z9bwvKYKdTilo9FYWz3ira3iKXqF/5ZpYiFL7uC7dgFQYkX4vSd0ICxVZy+/9tR7GdbKEEkJbmR3CsfrOumvfUO2Pb5CmN4voENZtikDZPEr1u7Ta2quFAZvCzxjQzGQCUwIwyqElh9UfhChqml4vqSP4HsgtTf3DLFDpp+YwZT+cvvEzrCjGRkwsF1Eo/q7OCXerZob3HKB8Z3ttLo//4dqg6l5ecT43tJT3iJ8fsiD8wE3S+L4oI8LowKSKRCvOEJ/SUMRdoFHgGmRLTjJ/kTRzn9od0pqpXNd9mJl//EOWSO6z4PK94McA2h48D1itUEuIsr4rtVE+RInnypa1dbYRSJpm7i4xqWWYYr0d9vKL0GBkLgdBWlCwkvALZ0tWBqW7+p2yOo17N5uPmxdrWNZwYDiiDwu7gaDYtP7Aqr4opW2Sek6i+PjVwQzRxRvF8kklQqX//9DlfTbw2u29mUn/w5LYTyCv1vKxWGefSFwMTL5K5otVyNHbNhuA2gDS/TAFBfmZpcu0Vw5XQ42w7hPFhYUAew0jsdn3UalSe4BOSlub4Gdk5kpc8kjRvJd1r9S5W6HdZkLbPZNALD+MVRLF8sFjDaEYxvq5IZlwIAslzd/OBhh9/LpZBi8D6Vt1NmKWZDrsXrpXb2gc7DZ2yHkxN7dnOL7E76Ro4ai171Wd+xYNny/Fg5iZVDKF2fqzc/wLH35l4MU3OdrzUjmmIk3nRkTiXjaEFLPc0yeZkhkblR3N97WWV77RISHYVDROxpw93Fj7dHkzsCpCqoMaVrwnim4iRDGXCoRpY3vI8zLCcTLna/8=
+ properties :
+  width : 373
+  height : 154
+  widthClient : 371
+  heightClient : 122
+  widthMin : 4
+  heightMin : 15
+ controls :
+  -
+    name : Static1
+    identifier : 0x286e71330177a7fa
+    internal_properties : CAAAAAgAAAC7HLOs+lQ1k2MStfGSL7KftIdvAyvwFQrtQOFy3zyldeQuLk1iDu24ooDQ9XONkUrofBJB5aGKOEbjadiZMT8GIfImrZ54aU1YshfPUMRO60D4iM6iWfBbPeIekGWAX/mvqeKlAh4bcyu1wzOoIUUC1bbCbwrhAdi9VL2BtJYAK1Ea4s9CQvauyx+ifShcmHxglS53OxS4KCCwGNv+DVkcACqdUoAjhemzZbSZbF/MpoD/VkKJjYUL2SeCSBvxzrC3+O4KrjJsi/b9GrOpPMVLTgbygWDha1B1QHJAG4Dik2STVH3NpFhkvG5wsmLZjjEZBzMGcwGrQgsm0mVz0Bag0AiUKuUa61NYI2kLZkN0aV4rk6BjZ6nVKWiGx5126yvY+twnNDar/o2qBW7+DNiuvw==
+    properties :
+     x : 5
+     y : 6
+     width : 140
+     height : 14
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : COMBO_SOURCE_CURRENCY
+    identifier : 0x286e71330178a7fa
+    internal_properties : CAAAAAgAAADLJBqDT4kY4wLj3t/iiAqOyh16L9yEA+Cp+7dvCTsRAt+bYKMy2UYYURMR1ocS7VG5ltX3YYWmWrE8+NBQUYhwTMt+nzWTTYyJHeg7/5CxbVvSlq+3kwkPmGbn2b3sR5BKnHo17mYVnXZx3VWL0zgnt2RrAajJ2vMu5PcLiCmW9p1IpM3lI5OYYRcIAxerxjNiO8q/J8hKoEhrs8KwiJqqzKMBetRJRMO+y73yBc9eKCy5GCPcRguM+VfkGtzkXOo73KbymkhS4hjiHTrzc4AFpD2ZDw3rG4PEbFZTrVSv8kZ2dW3JqLJMJVy4F1BFBEgWdYcKjbBPTX5/+NnmGMGSut0COc3HhPPCYVtsYondZVM6oVwVI93lHDv5OBW7/zJnA1uRcujk+Hx9kCR6ezgNKJXuMSwZm1vRN3j6MoPA+AB5i7NhApU/Lj64inpnHoRXo8Y6LjNfeo+R8bAn71Ko5l4v4YW3tF1ZC8j9wF43DHQ6FaSsxCOGicUlYNXT4RZWWC8n+6n0AhJOwbLBgU/AtjQAML15fPU/n/65Ywxg1MEPMNgSwJfzfkHyKPLmhiPtTUgi/Gmxj6++znm5xjTgqku+54bMGVKsiCdCF9qK2POyHoojxp18hkVdyJItwPy3lNJzs3hDYtK0NtzrqfuQaPmlMtHF1UastAeH+Le3Mnv1IHbhw20m3ilE38kc0JwqoCR10aRei5PHXDT60rlPjySm0KOI1Vl70GwUlutVTTlC0ZUMuGC+VNXd8lZeoXozzVf+2xkprsUjAx3hMXzhiaxla5c/K1gKzr6jayosjmJCGwI42dVBBP5qtj0avvx5qSpsDFu6AbHy8MiAuWSSfNkmILFVUNk0bkIbfOlcLqxEnccVuogReMnumcKTCLpwpz5vB23U++37FA8vxpscbGjJKccGX2jHsuymx9bF4KNiFve9YoXpRA8FQkTDlqeRJ+5X1qdTxRGlYbiXCqn6/QOpg0Wof5Z/RGFEJxJyJkayOwe65B0WfYFI/bLD2MDqVLe/oQVhZUPpRMX6yjfcXGco+3JEJfZBv2d6XcKGLnZoNt1r/I7EXFPSKQBp/CletgDmV1tWsuXKiXSxEAkceE6l9zG25kM46W4OHIlt9xfcXMDN4mAhzauZiyEseI15zaNeo9Txup5haoHGfVYBs073XzZ5DnKewq1On2AJVZ6TkPRV0xxq90vyP0IJdZAd/mc8Xxtaw5wZQvujrV6kqgNRYaAsJrOoGsNoUIQtpnTjzeYo25rgDgDto44O+zz0gE/5Mg65i7HatVBV4MCKufJPGIILwYIP5g6L
+    properties :
+     x : 6
+     y : 40
+     width : 147
+     height : 22
+    dropdown :
+     internal_properties : CAAAAAgAAABvAmkNFJniSRO8pJF1u7wqT8kBBot8m5i9xaAi7t+s3bg+vwj7UqacwKTrJiC9NjFjbSu5xdw+lWSv6vaiETdMKNhe6O9mL6N2Ri8mO4iRWyED+FeRAiAeQ0CVYamud2hjnmqt+PZ+JFMMnIo+chb/ceL3GdSWdy/fYK2ijXKAtHPl3a0K1HBg1+Ivdan3/UYUx83vUC/Ks7zfyLokjoeIjZRvC3J/Jcp/8j056P0yMThXmAA1HbP59+eKtjILnRxQZ7SnmogGS2MHKmL6wpZZH9lGGOLYnnVwH8ZtKnnqz/2cF7xh+eWH7BR3aSXq4JOGXZ2N88KRvh+gFwuGvo8HPJacdjE/7KLq8AitnlyHK1MBS6g/HHLi9n5XaC82kmGs0PVC5QdK372cdc1Ol4XCX36XbIqir3mMnlCjr+9zUDDnKpwsgO1Qs9KqxN8N6ygxSgS2vMpsU6dcyuAnR2Po/E6PPQsqvU1hlYE4KxdJUPNavhN9F0VYlv8rYKlC5sy/8kW+KfpO3w==
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1-
+         //Fill the combo box.
+         ListAdd(COMBO_SOURCE_CURRENCY,gEuro:CurrencyList())
+         
+         
+         //By default, the source currency is the Euro.
+         ListSelectPlus(COMBO_SOURCE_CURRENCY,1)						
+         ExecuteProcess(COMBO_SOURCE_CURRENCY,trtSelection)
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1+
+         //Changes the source currency.
+         gEuro:FixSourceCurrency(COMBO_SOURCE_CURRENCY)
+         STC_SOURCE..Caption = gEuro:EuroCaption(1)
+         SOURCE = gEuro:ConvertCurrency(TARGET,2)
+        type : 33
+      -
+        type : 17
+        enabled : false
+  -
+    name : SOURCE
+    identifier : 0x286e71330179a7fa
+    internal_properties : CAAAAAgAAAAmhFfAux4Ala3nD7eE0jguBOCL/VH8vpXD92oJBTdxk1mjk9Q9c3vKrjFGJ5M1F6xX3y5PEn8DuBcwxd1eW1clQ0dOIGS64GgHIi8ANATKjZydOm4KiQoRgZJHxtMZ9+aZ2uwpabuu6or9ash9iARLjo4P4+z8RgxEVluUC1Kg/vmohQ8cP/XMBgnGNkoFb/PV3Hph+KZdMyuL0roMzAKSb/YjL67TYMr+pfuZ/J/ISolN/Pblyfy0FLlS5P5JVzuGsLiqTDRtkiGo6bg9QGYOThO1P0P9yyW5VaVGrL63QnjF6gFPS8EuC2I2ZAGTyAVLPm7VwksHmkXSjIcdzl5cPa/wVhjnyuvZoaSPohXt3+XtJU3jsKHgIm9K8rsebiLBQPHRCDVj9LAqWmPWirOtHCiQbQn1GONqjPeLIE86Ogdjr/Pe+rkpZBa/odn6sQQpfYOy5zn9/FkxzD0SnH8vaOLq7/U3rTG0ulDcTwg53SWSAopDe/BTHOSjJ07eP6wtbgjlBiQmYF6IBHRbqC/PqC/9hcCu9dcbTW9f2SvglcOD/SWy/Mbpt7O1gsIHM2Qbe6D/XdebAPtTfSgiDnfXPQv8/mzBbaxSoTbIeKVWsdr7WaOVSdFcZuIEkWGF8gZwULuKJ0c3WUpagmcBykO26ekUD4X8UsVPkLvKq0dslFacyIvs5+BJalbZKxSulvV+1cXgHoogQHqu5Ed16QYFBBBtxFxsH+52JJ3lbrQwKr6+57T8o0euaMolRXA4Yvsa
+    properties :
+     x : 159
+     y : 40
+     width : 148
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         TARGET = gEuro:ConvertCurrency(MySelf,1)
+        type : 17
+  -
+    name : COMBO_TARGET_CURRENCY
+    identifier : 0x286e7133017aa7fa
+    internal_properties : CAAAAAgAAAAaUypvOxYTuEImTZpUlykwuaMK51T4ta/NQhn5nlRUKlXkXuwun7CAvLqqOhofOUQ+oT0nDI1GHKdH32euq6mtRiPHFaQ3w2G3S/MMVEfoEVgf8Vkn3UokvveEjAMhW8X9WOx0b0LkpD8YBwvLirovmRqk5MoSvZHgkzd0B5T9U1fdyb2hRbm5FI9bkMk9VyziYl+KzGtEXKHPUDFT9+tjTri9I7asAgM7QbAsn6eRaOLb+dQVo7oY6Xtq0hGCQmAw8cZYPXokj+2GhN0Bv7Ss6yhBAgOldwis2Z/uSiURBorL1emosim7e7lIh0TD+dlXCUvC9XPNByLBIFyNYOFCf38DF8oIpbGXKxb5gGpuEupnB7zj+juyMHc8cXK/PN7AkbipLhGtJGIr1FL+TyZoBYEEqbKE1kq8VMQpDGnAaCLNRwVuZSgXLj3mDypfD3sfbj84JjPm+qt7dhQGKe/VKtQcP9hYEj5SWhiQjmfRGtAiPa7YXKhAue54rzyYqFKYRVWuLSV/JtVSAuQUVRr8uaVtYJJQpluIMipQmL5xSxbRatxZoGlc87obHXnOdxZS40iq6mgWn9V2tBeH4JHRFLKiddsGz7eeMPvS1tI6ursXvIUYEt802rnza3g2P86VKabv44HMmqApsbjsZAlKssSwSPlEiq9y/QmuTS9X0JOacJI1+mMR+8wmubg6Js/oJ+xQBDO0DHQyBCepOkv3nZFsSu4qQ+X+vO/9rOT5DkgFbMt9WOEhGNb4JzNOQrYRmmPeOGya2ePwodL7duZ8h5VXBpB443anHmNH+K5opIJFmGmfNaOb6Rf5/eoxYTLtokv/T6MQD7sn309B8Hudo1ybmGqTy9vdAuZNNMjWYMRYQG+D2yU4uCyTeoPAvXixTSuHxp25ofR7KvjBGmyE19zOldiFiuLsUpvbZSZr9JeTmEw6kh+a1E0L+CmAUAoySf/ZAxnp6GpH2cTg/v0t8W502cK8c2OpP/4L1+5yrV6RXShAR0V1j/5boBwnQP35vMa1w6pc09LzMEcJDXTomCYYFkTxhJraqSkg3C3hFk5NPJRvb7/C+bcsDSv8u/neqfyfAUBTGXF1Xr3wv5MXtVQINdgH6dGjmfXuG6REIVFL1Ol5DGz08dA5zXZtE3UFvEv3sUu25N+pbDvBZ1HzRbc65O7IhxMXSr9WxLVmhyAkM5zaX0a05N+AC9gBDf2YbOZYZkU/oxVj0se2LClmzABv6iKqslSOy5KJ9NyMBj8pNqsQmfQPGwOWC5CJpoysff/QBSXeGYRC2FEkS0fZ3jKEMh6flMNr2uTL3xdt
+    properties :
+     x : 6
+     y : 68
+     width : 147
+     height : 22
+    dropdown :
+     internal_properties : CAAAAAgAAABvAmkNFJniSRO8pJF1u7wqT8kBBot8m5i9xaAi7t+s3bg+vwj7UqacwKTrJiC9NjFjbSu5xdw+lWSv6vaiETdMKNhe6O9mL6N2Ri8mO4iRWyED+FeRAiAeQ0CVYamud2hjnmqt+PZ+JFMMnIo+chb/ceL3GdSWdy/fYK2ijXKAtHPl3a0K1HBg1+Ivdan3/UYUx83vUC/Ks7zfyLokjoeIjZRvC3J/Jcp/8j056P0yMThXmAA1HbP59+eKtjILnRxQZ7SnmogGS2MHKmL6wpZZH9lGGOLYnnVwH8ZtKnnqz/2cF7xh+eWH7BR3aSXq4JOGXZ2N88KRvh+gFwuGvo8HPJacdjE/7KLq8AitnlyHK1MBS6g/HHLi9n5XaC82kmGs0PVC5QdK372cdc1Ol4XCX36XbIqir3mMnlCjr+9zUDDnKpwsgO1Qs9KqxN8N6ygxSgS2vMpsU6dcyuAnR2Po/E6PPQsqvU1hlYE4KxdJUPNavhN9F0VYlv8rYKlC5sy/8kW+KfpO3w==
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1+
+         //Fill the combo box.
+         ListAdd(COMBO_TARGET_CURRENCY,gEuro:CurrencyList())
+         
+         
+         //By default, the source currency is the Euro.
+         ListSelectPlus(COMBO_TARGET_CURRENCY,2)						
+         ExecuteProcess(COMBO_TARGET_CURRENCY,trtSelection)
+         
+         
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1+
+         
+         
+         
+         
+        type : 15
+      -
+        code : |1+
+         //Changes the source currency.
+         gEuro:FixTargetCurrency(COMBO_TARGET_CURRENCY)
+         STC_TARGET..Caption = gEuro:EuroCaption(2)
+         TARGET = gEuro:ConvertCurrency(SOURCE,1)
+        type : 33
+      -
+        type : 17
+        enabled : false
+  -
+    name : TARGET
+    identifier : 0x286e7133017ba7fa
+    internal_properties : CAAAAAgAAADHq8jqIGF7tB6eDmvPf8NdOU4B+CvcX3b6O30FK1KZ8LcmeH1olBZR5jZojWBL84K7K84BOviEtn9WeYKxhw26gGB9Xvkgy8eGMclvipzIxPQ+bLEqy1Nfr8PVCJkfphjIU8rQMneOKxvdwkmoqQFG2zWUlSnvJuvUTZmtxqWBHbqfoiP0BOcl4UeTEKSZHTBdeSEFQq01cAANHtI6P+1y9TN/w/swTxTapUYusaCXbM6FGUIr+Ra3bUU7xhjkDLhBBCgeLaTIfqmnVsfV3Lqu4rXv4Sb7bCzeirhiVc4Gwy7E30snvQI8rTf3Q/GivaYoYbcjLpI1CXAJ4y6nNIjS0ejEX+QkehOvwRptvWkML0D6Zkk35NzPkCOwR3dC/LcyRrApgCVWIovKP+Dr6Y62AX/Uo6ZcSMQuuaQGWrkf0Pm88NkD45PMA302h7rbXnWDkgvEEIRIFdVXQoLinYRZTPinsHexNH16nVknIVy5VbYslBqDttKxlzd07u0RhjYtAabKyo4zxkei8ak7pxuA1r+6P7R78bYRmXFSk/DPJQwwjN+CkgYCoj4xnhod19Y9OMad3j77ALTwd4tM9FEJk/ujftPBWZwVKGVYD2XcGRZlFtDxrggretO7YG3E/fgtlRe888FHeofZyK/VHWJUw2SZ/JqGJMSNu0GcZsRoIXw990qG7tsws+UDeHuVoWSXQEAlgzpaN890p1F8BzEvAsNWCtoka1GP0UDDEXdQAbeXOM3T67MwtDirHYgfAxo7
+    properties :
+     x : 159
+     y : 68
+     width : 148
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         SOURCE = gEuro:ConvertCurrency(MySelf,2)
+        type : 17
+  -
+    name : STC_SOURCE
+    identifier : 0x286e7133017ca7fa
+    internal_properties : CAAAAAgAAADbhs4oCBCpRfrHLllPB2SIQJLLrN8le/o7z5VGL+0OoSSEii5kY5IiUMdH39B+MIw6skwJa3TH5H8+5+YlCzLkL49/rbDdNDJoV+ueWEkYbffxfTSyuVvzPXBRVeWvSeD1dMnHWsoT5h9r6IWjhwijSYtThwghRreHj7dr4almmDKF92CRziQudXll8lhoPjpACgYclhJfmUHWfka0x39PD34xTjlC9jejkFt7ypqQMgDN8V3UstdoHwsKvTUeoi+T7GtplIxDtC8c2i2TI3Nt08E1tp82g3RFNbBpXRouoCAjQvkPrLmmh30f6Y5NilWcXwXQTh92wJTcgwjBSxzDoAXAYD0Qu3HUwun0hyhoiNhN7dAudJy02JH2E+ELwo6f
+    properties :
+     x : 313
+     y : 45
+     width : 37
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_TARGET
+    identifier : 0x286e7133017da7fa
+    internal_properties : CAAAAAgAAACLMcwYNwYO+zApJQ+i+mdpTpGDPL8hfTOGlb978Q9qnd18SttX9IQzfTvcs33V6w25u62k/IHEENr0wwcdzPnXkXsHUPvstjuZJQRIul9ocuJoGWRbn5Jwx4IFrTqjd1yF+zGFSHbtSRRBoBff+hyuL24PsU3nw24I8wHlR/wU2IQoqqmvNlXXYNN2+p8RyD4rrEVKyY3qiJ4CV+zJ23p7RW7RG+1LYOiK1V0HqznU49/vCTs6IRvly/5QbNqLm7fW2QU0hrQSnuDTBjTMUIwbvho35Uo5etIyrqSSS/95GiPusfwbwOGs1k8tx6wW1IK/HKUoHbLbiiQIQNwFyaR+go60Aix1FyZREbZusgpmYYbmmiqCQlW/X0VGQNF6pGc=
+    properties :
+     x : 313
+     y : 73
+     width : 37
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x3fa7bb8a63b1249b
+  internal_properties : CAAAAAgAAAAoagsXE0xucBO2e0ia94vQrRWSYO17FDggaUaeRKNmgp14OlvHidYQADmCe7JzSJ/iKr5/Bl/WV71r91Q/sDYDdLqwsTKTRz9u6D0iJop7i+W+LJQFAWVumkmWJDkEpFSI/3Isl72sizXgIGa6ceDcVwxLKYotV/mMqpwrFnyD72otbjY33rrJB0BU1QDpjXP/hy2K72XPUh586oOx/dcjilW8iumXoyb12Pn4c9m1zBiqwt5h1BaxnU3jtI9jdwvFT4lDQEH//KnAMHelnxzoooufws/wvKpA
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAE5xwqTPrSI2ETy1yvoDXwK3I3BKkG2umDQtrBdBNT3AjlaYyugBQs0ZnygqAJaxFit0kzrXVxQd275XiQFTBuysxyHr/AhIH2/upWCNjCyUDpjIbSBqGGisgRtJfAb/w=
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      // Declare a cEuro object
+      gEuro is object cEuro
+   -
+     code : |1-
+      
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : ConvertisseurWD
+resources :
+ string_res :
+  identifier : 0x3c76668f7674fc84
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_WDConverter.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

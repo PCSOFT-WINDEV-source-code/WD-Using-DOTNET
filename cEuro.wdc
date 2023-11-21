@@ -1,0 +1,248 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : cEuro
+ major_version : 28
+ minor_version : 0
+ type : 4
+ description : ""
+ subtype : 0
+class :
+ identifier : 0x3fa7ace03658de59
+ internal_properties : CAAAAAgAAAB2/vstTMCJbS/hlxjFxirSqKvCUuv8YxgpWyl7S3iA
+ code_elements :
+  internal_properties : CAAAAAgAAAAt2UUWtnUAfq9gWnkxW8wcrFxbHgCTwiciADWMXv6evNUsiqyEemD5CzEBFtaBghjB0KcxTu1kkULTmCSZHTIwqKHNe9rQGRbPjUvahwjWg7XZJ/0jYXtUHiz7fvJTYc3yC3RsNovO48A6w+lGlL6QM6c6FcF972LVzLM94svr6SqOay6Qqx+CXWNrH/qFuzbmYgK/ivTf0M9ds/SAkPtWTzFRz0ubbCbfrnqFPYU2KviDAjw8zw7vm1mAEtBpXWre62rPkPHHNh1Y8PbAn9kabSiFRGt495dpwHUKQgVqyPx53t3angkylrx3gA03pccxJg9ihyGhzNadG5qj8KSL7quiTNVGhP/xJrHH22XQX+F75jICuQ==
+  type_code : 10
+  p_codes :
+   -
+     code : |1+
+      cEuro is Class
+      	// Class of Euro conversion intended for a .NET DLL
+      	//Used to perform conversions: Euro > Currency / Currency > Euro / Currency > Currency.
+      	
+      PRIVATE
+      	e_SourceCurrency 		is int 				//CurrencyUsed.
+      	e_TargetCurrency		is int				//
+      	e_Decimals			is int				//Number of decimals.
+      	CurrencyTab			is array dynamic	//Array of currencies
+      END
+     type : 131072
+  procedures :
+   -
+     name : Constructor
+     internal_properties : CAAAAAgAAAAzdtZ3Fuj5taLeT4VO0xkyVAASg3PIUUInq5NvXbOu6Es0skcbznO0068gQCqsVCFlxZQ80WjKlOak7a30DUBa5plD/Qyq3IqU2lsfrjGQmrnB1NCjz6VGPblJiaTHyxL3L3Xdln02iM8F8PT9sKkEHpl95QrVNN0tJ4dMBAC7HzAsONj+oF0eZobqRIoBbt5kL1k6dPmS/cttH/JCPNxfxgI=
+     procedure_id : 4586824823716240985
+     type_code : 27
+     code : |1-
+      PROCEDURE Constructor(LOCAL _SourceCurrency is int = 0,LOCAL _TargetCurrency is int = 1)
+      
+      //Initialize the array of currencies.
+      :CurrencyTab = new array of 14 int
+      :CurrencyTab[1] = 0	//EURO
+      :CurrencyTab[2] = 1	//F
+      :CurrencyTab[3] = 2	//ITL
+      :CurrencyTab[4] = 3	//BEF
+      :CurrencyTab[5] = 4	//LUF
+      :CurrencyTab[6] = 5	//DEM
+      :CurrencyTab[7] = 6	//ATS
+      :CurrencyTab[8] = 8	//ESP
+      :CurrencyTab[9] = 9	//IEP
+      :CurrencyTab[10] = 10	//NLG
+      :CurrencyTab[11] = 11	//PTE
+      :CurrencyTab[12] = 14	//GRD
+      :CurrencyTab[13] = 15	//FIM
+      :CurrencyTab[14] = 34	//SIT
+      
+      //By default, the source currency is the Euro and the target currency is the Franc.
+      :e_SourceCurrency = _SourceCurrency
+      :e_TargetCurrency = _TargetCurrency
+      :e_Decimals = 3
+      
+      // Exchange rate for Slovenia
+      eInitCurrency(eSIT, "SIT", 239.640)
+     type : 589824
+   -
+     name : Destructor
+     procedure_id : 4586824823682293337
+     type_code : 28
+     code : |1+
+      PROCEDURE Destructor()
+      
+     type : 655360
+   -
+     name : EuroChangeRate
+     procedure_id : 4586840230801873343
+     type_code : 12
+     code : |1+
+      PROCEDURE EuroChangeRate(LOCAL _Currency is int)
+      
+      //Returns the exchange rate of the current currency.
+      RESULT eExchangeRate(_Currency)
+     type : 458752
+   -
+     name : EuroCaption
+     internal_properties : CAAAAAgAAABVS3u7Dh8jHQbuiCKSt+i5VZJXkXWESORRW3eZcI78rHS7DddSo0wnK3BtktgU0OHYWnjxTUI2kX4QZID9Y0RHktelKB/JkUE9k7T3S0G4yxIkl63O5GDrtCrCGNmCEO1g3uh6+9AzM5BuyRMwbeIzI+Zy8A+IMcBe7hQ/eQpHgoqPWQDR9a5VsmGUzg787ADARA==
+     procedure_id : 4586856315654159834
+     type_code : 12
+     code : |1+
+      PROCEDURE EuroCaption(LOCAL _Currency is int)
+      
+      //Returns the caption of a currency.
+      //1 for Source and 2 for Target.
+      SWITCH _Currency
+      	CASE 1 : //Source
+      		RESULT eCurrencyName(:e_SourceCurrency)
+      	CASE 2 : // Target
+      		RESULT eCurrencyName(:e_TargetCurrency)		
+      	OTHER CASE
+      		RESULT ""
+      END
+      
+     type : 458752
+   -
+     name : CurrencyList
+     internal_properties : CAAAAAgAAAD7E9MYc6TLefC5pE50yfbsJygbJjotddpb7SMeD62nv0Ab3jcgNxTsAXv1baHkuSRz80QnTOVsHWTjfnAH1hdu1SJS9/0Jdz5XnKREqHwin44Upx3OgDOWws4sDK3MqXZ8WSvEGyc3iTuRNNwllCiLrhfF2Tad0WpdNauMiOZRFOQUEKzG3BQx6vpSaOKyrnAbquKHUz0TwSqIVSei9iqzhA+VtBuIhWrRo8QeJF720kd2vMfQ2pR2115kb1FOQjszLI76cF44QDYQ
+     procedure_id : 4586857594276825867
+     type_code : 12
+     code : |1+
+      PROCEDURE CurrencyList()
+      
+      //Returns the list of currencies and their subscripts
+      // String format: Currency+CR
+      RESULT 	<§$0000§>+CR+...
+      <§$0001§>+CR+...
+      <§$0002§>+CR+...
+      <§$0003§>+CR+...
+      <§$0004§>+CR+...
+      <§$0005§>+CR+...
+      <§$0006§>+CR+...
+      <§$0007§>+CR+...
+      <§$0008§>+CR+...
+      <§$0009§>+CR+...
+      <§$000a§>+CR+...
+      <§$000b§>+CR+...
+      <§$000c§>+CR+...
+      <§$000d§>
+     type : 458752
+   -
+     name : ConvertCurrency
+     procedure_id : 4586858493906024791
+     type_code : 12
+     code : |1+
+      PROCEDURE ConvertCurrency(LOCAL _Val is real, LOCAL Direction is int)
+      
+      //Depending on Direction, convert _Val 
+      //Direction = 1 ---> _Val is converted from the source currency to the target currency
+      //Direction= 2 ---> _Val is converted from the target currency to the source currency
+      ValtoResend is real
+      
+      SWITCH Direction
+      	CASE 1: //Direction: source to target.
+      		ValtoResend = eChangeCurrency(_Val,:e_SourceCurrency,:e_TargetCurrency,:e_Decimals)
+      	CASE 2 : //Direction: target to source
+      		ValtoResend = eChangeCurrency(_Val,:e_TargetCurrency,:e_SourceCurrency,:e_Decimals)
+      END
+      
+      RESULT ValtoResend
+     type : 458752
+   -
+     name : FixNbDecimals
+     procedure_id : 4586872370597447765
+     type_code : 12
+     code : |1+
+      PROCEDURE FixNbDecimals(LOCAL _Decimals is int)
+      
+      //Defines the number of decimals.
+      :e_Decimals = _Decimals
+     type : 458752
+   -
+     name : FixSourceCurrency
+     procedure_id : 4586873825209218467
+     type_code : 12
+     code : |1+
+      PROCEDURE FixSourceCurrency(LOCAL _Source is int)
+      
+      //Gives the subscript of the combo box.
+      :e_SourceCurrency=:CurrencyTab[_Source]
+     type : 458752
+   -
+     name : FixTargetCurrency
+     procedure_id : 4586874195849528747
+     type_code : 12
+     code : |1+
+      PROCEDURE FixTargetCurrency(LOCAL _Target is int)
+      
+      //Gives the subscript of the combo box.
+      :e_TargetCurrency=:CurrencyTab[_Target]
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x3fa7acdc135fcdeb
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : Euro
+     index : 0
+   -
+     text :
+      en-GB : French Francs
+     index : 1
+   -
+     text :
+      en-GB : Italian Lira
+     index : 2
+   -
+     text :
+      en-GB : Belgian Francs
+     index : 3
+   -
+     text :
+      en-GB : Luxembourg Francs
+     index : 4
+   -
+     text :
+      en-GB : German Marks
+     index : 5
+   -
+     text :
+      en-GB : Austrian Schillings
+     index : 6
+   -
+     text :
+      en-GB : Pesatas
+     index : 7
+   -
+     text :
+      en-GB : Irish Pounds
+     index : 8
+   -
+     text :
+      en-GB : Dutch Florins
+     index : 9
+   -
+     text :
+      en-GB : Portuguese Escudos
+     index : 10
+   -
+     text :
+      en-GB : Greek Drachmae
+     index : 11
+   -
+     text :
+      en-GB : Finnish Marks
+     index : 12
+   -
+     text :
+      en-GB : Slovenian Tolar
+     index : 13
+   -
+     text :
+      en-GB : Slovenian tolar
+     index : 14
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
